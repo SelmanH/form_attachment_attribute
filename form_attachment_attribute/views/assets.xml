@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <template id="assets_backend" name="attachment_view assets" inherit_id="document.assets_backend">
+        <xpath expr="//script[@src='/document/static/src/js/document.js']" position="replace">
+            <script type="text/javascript" src="/form_attachment_attribute/static/src/js/attachment.js"></script>
+        </xpath>
+    </template>
+</odoo>
